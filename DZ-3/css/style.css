@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    width: 1170px;
+    padding: 0 15px;
+}
+.section-header{ 
+	text-align: center;
+	margin-bottom: 115px;
+	align-items: center; 
+}
+.section-header__title{ 
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	margin-bottom: 55px;
+	font-weight: 400;
+}
+.section-row{
+    height: 1px;
+	width: 170px;
+    margin: 0 auto 40px;
+	background-color: #EC7979;
+}
+.section-header__subtitle{ 
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #86878B;
+}
+.container__items{ 
+	display: flex;
+	justify-content: space-between;
+}
+.item{ 
+	width: 370px;
+	padding: 5px; 
+	text-align: center;
+}
+.item-about__icon{ 
+	width: 92px;
+	height: 92px;
+	margin: 0 auto 65px;
+	background-position: center;
+}
+.item-about__icon.item-about__icon_lamp{ 
+	background-image: url(../image/about_icon_1.png);
+}
+
+.item-about__icon.item-about__icon_keyboard{
+	background-image: url(../image/about_icon_2.png)
+}
+
+.item-about__icon.item-about__icon_light{
+	background-image: url(../image/about_icon_3.png);
+}
+
+.item-about__title{ 
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	margin-bottom: 45px;
+}
+
